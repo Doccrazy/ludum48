@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/noise.mp3-d8ed4762a41834bd51d826e5127cf656.mp3str"
+
+[deps]
+
+source_file="res://noise.mp3"
+dest_files=[ "res://.import/noise.mp3-d8ed4762a41834bd51d826e5127cf656.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

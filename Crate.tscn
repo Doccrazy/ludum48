@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://dollar-crate.png" type="Texture" id=1]
+[ext_resource path="res://Crate.gd" type="Script" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 5.80426
+height = 7.66226
+
+[node name="Crate" type="RigidBody2D"]
+position = Vector2( 250, 300 )
+collision_layer = 33
+collision_mask = 1025
+linear_damp = 2.0
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 1 )
